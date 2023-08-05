@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=GFS+Didot&family=Roboto+Mono:wght@300&display=swap");
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+/* Set the dimensions of the resume to A4 size */
+.resume {
+  width: 210mm;
+  height: 297mm;
+  margin: 0 auto;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 20mm;
+  font-family: "GFS Didot", serif;
+  background-color: #fff;
+}
+@media print {
+  .resume {
+    padding: 10px;
+    box-shadow: none;
+  }
+
+  .language-toggle {
+    display: none;
+  }
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+.profile p,
+.profile a {
+  font-size: 14px;
+  margin-bottom: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.profile-info {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.profile-info:not(:last-child) {
+  align-self: stretch;
+  content: "";
+  padding-right: 12px;
+  border-right: 1px solid black;
+}
+
+.skills span,
+.experience span,
+.education span {
+  display: flex;
+}
+
+.skills-titles {
+  width: 30%;
+}
+
+.experience span,
+.education span {
+  justify-content: space-between;
+}
+
+.education h2,
+.experience h2,
+.skills h2,
+.certifications h2,
+.honors-and-awards h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.education div,
+.experience div,
+.skills div,
+.certifications ul,
+.honors-and-awards ul {
+  margin-bottom: 20px;
+  margin-left: 16px;
+}
+
+.education h3,
+.experience h3,
+.skills h3 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.education p,
+.experience p,
+.skills p,
+.experience li,
+.certifications li,
+.honors-and-awards li {
+  font-size: 14px;
+}
+
+.skills p {
+  margin-bottom: 5px;
+}
+
+.experience ul {
+  list-style-type: square;
+  padding-left: 20px;
+  margin-left: 16px;
+}
