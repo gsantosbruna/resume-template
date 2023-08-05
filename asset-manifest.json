@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/gsantosbruna/resume-template/static/css/main.b4d2d154.css",
+    "main.js": "/gsantosbruna/resume-template/static/js/main.ea25731d.js",
+    "index.html": "/gsantosbruna/resume-template/index.html",
+    "main.b4d2d154.css.map": "/gsantosbruna/resume-template/static/css/main.b4d2d154.css.map",
+    "main.ea25731d.js.map": "/gsantosbruna/resume-template/static/js/main.ea25731d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4d2d154.css",
+    "static/js/main.ea25731d.js"
+  ]
+}
