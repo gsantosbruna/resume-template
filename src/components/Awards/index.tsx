@@ -1,7 +1,10 @@
 import React from "react";
 
 interface HonorsAndAwardsProps {
-  data: string[];
+  data: {
+    award: string;
+    description: string;
+  }[];
   honorsAndAwardsText: string;
 }
 
@@ -13,8 +16,11 @@ const HonorsAndAwards: React.FC<HonorsAndAwardsProps> = ({
     <div className="honors-and-awards">
       <h2>{honorsAndAwardsText}</h2>
       <ul>
-        {data.map((award, index) => (
-          <li key={index}>{award}</li>
+        {data.map((award) => (
+          <div>
+            <li key={data.indexOf(award)}>{award.award}</li>
+            <p>{award.description}</p>
+          </div>
         ))}
       </ul>
     </div>

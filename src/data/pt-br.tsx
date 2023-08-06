@@ -98,7 +98,12 @@ const resumeDataPTBR = {
     "CTFL Foundation Level - ISTQB (International Software Testing Qualifications Board)",
     "TOEIC (990 de 990) - TOEIC® Educational Testing Service (ETS)",
   ],
-  honorsAndAwards: ["Bolsista BRAFITEC (Setembro de 2022 - Presente)"],
+  honorsAndAwards: [
+    {
+      award: `Bolsista BRAFITEC (Set 2022 - Presente)`,
+      description: `Duplo diploma financiado pela Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES), que oferece bolsas a cerca de 200 estudantes que se destacaram em programas de engenharia brasileiros.`,
+    },
+  ],
   projects: [
     {
       title: "Portfólio",
@@ -115,7 +120,7 @@ const resumeDataPTBR = {
     experience: "Experiência",
     skills: "Habilidades",
     certifications: "Certificações",
-    honorsAndAwards: "Prêmios",
+    honorsAndAwards: "Outros",
     programmingLanguages: "Linguagens de programação",
     librariesFrameworks: "Bibliotecas/Frameworks",
     toolsPlatforms: "Ferramentas/Plataformas",

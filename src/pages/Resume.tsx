@@ -37,7 +37,10 @@ interface ResumeData {
     languages: string[];
   };
   certifications: string[];
-  honorsAndAwards: string[];
+  honorsAndAwards: {
+    award: string;
+    description: string;
+  }[];
   common: {
     education: string;
     experience: string;

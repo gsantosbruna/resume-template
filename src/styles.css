@@ -22,6 +22,10 @@ li {
   font-family: "GFS Didot", serif;
   background-color: #fff;
 }
+
+.language-toggle {
+  width: 210mm;
+}
 @media print {
   .resume {
     padding: 10px;
@@ -117,6 +121,16 @@ li {
 .certifications li,
 .honors-and-awards li {
   font-size: 14px;
+}
+
+.honors-and-awards li {
+  /* list-style: none; */
+}
+
+.honors-and-awards p {
+  font-size: 12px;
+  margin-bottom: 5px;
+  font-style: italic;
 }
 
 .skills p {
