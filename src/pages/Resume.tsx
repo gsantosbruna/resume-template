@@ -5,6 +5,7 @@ import Experience from "../components/Experience";
 import Skills from "../components/Skills";
 import Certifications from "../components/Certifications";
 import Awards from "../components/Awards";
+import Description from "../components/Description";
 
 interface ResumeData {
   profile: {
@@ -72,6 +73,7 @@ const Resume: React.FC<ResumeProps> = ({ data }) => {
   return (
     <div className="resume">
       <Profile {...profile} />
+      {/* <Description /> */}
       <Education data={education} education={common.education} />
       <Experience data={experience} experience={common.experience} />
       <Skills {...skills} common={common} />

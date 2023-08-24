@@ -44,7 +44,7 @@ const resumeDataFR = {
       ],
     },
     {
-      title: "QA Ingénieure",
+      title: "Ingénieure QA",
       company: "CESAR",
       location: "Recife, Brésil",
       date: "Juillet 2021 - Août 2022",
@@ -69,16 +69,25 @@ const resumeDataFR = {
   ],
   skills: {
     programmingLanguages: [
+      "TypeScript",
+      "JavaScript",
       "Python",
       "C",
       "C++",
       "Swift",
       "Matlab",
-      "JavaScript",
-      "TypeScript",
+      "Java",
     ],
-    librariesFrameworks: ["React", "CSS", "HTML5", "XCUITest", "Selenium"],
-    toolsPlatforms: ["Arduino", "JIRA", "Git", "GitHub"],
+    librariesFrameworks: [
+      "React",
+      "CSS",
+      "HTML5",
+      "XCUITest",
+      "Selenium",
+      "Node.js",
+      "Next.js",
+    ],
+    toolsPlatforms: ["Arduino", "JIRA", "Git", "GitHub", "Jenkins", "API"],
     softSkills: [
       "Résolution de problèmes",
       "Sensibilité culturelle",

@@ -123,14 +123,16 @@ li {
   font-size: 14px;
 }
 
-.honors-and-awards li {
-  /* list-style: none; */
-}
-
 .honors-and-awards p {
   font-size: 12px;
   margin-bottom: 5px;
   font-style: italic;
+}
+
+.honors-and-awards .description {
+  font-style: normal;
+  font-size: 12px;
+  margin-bottom: 10px;
 }
 
 .skills p {
