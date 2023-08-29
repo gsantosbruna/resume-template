@@ -129,15 +129,15 @@ const resumeDataPTBR = {
       description:
         "Feedback em tempo real sobre pronúncia em idiomas, alimentado pelo Google Cloud Speech, para melhorar as habilidades de fala em muitos idiomas.",
     },
-    {
-      title: "Portfólio",
-      image: "https://i.imgur.com/8XZJQZM.png",
-      tags: ["React", "CSS", "HTML5"],
-      githubLink: "https://github.com/gsantosbruna/portfolio",
-      liveLink: "https://portfolio-gsantosbruna.vercel.app/",
-      description:
-        "Meu site de portfólio construído com React, CSS e HTML5. Ele apresenta minhas habilidades, projetos e experiência.",
-    },
+    // {
+    //   title: "Portfólio",
+    //   image: "https://i.imgur.com/8XZJQZM.png",
+    //   tags: ["React", "CSS", "HTML5"],
+    //   githubLink: "https://github.com/gsantosbruna/portfolio",
+    //   liveLink: "https://portfolio-gsantosbruna.vercel.app/",
+    //   description:
+    //     "Meu site de portfólio construído com React, CSS e HTML5. Ele apresenta minhas habilidades, projetos e experiência.",
+    // },
   ],
   common: {
     education: "Formação",

@@ -130,15 +130,15 @@ const resumeDataEN = {
         "Real-time language pronunciation feedback, powered by Google Cloud Speech, for improving speaking skills in many languages.",
     },
 
-    {
-      title: "Portfolio",
-      image: "https://i.imgur.com/8XZJQZM.png",
-      tags: ["React", "CSS", "HTML5"],
-      githubLink: "https://github.com/gsantosbruna/portfolio",
-      liveLink: "https://portfolio-gsantosbruna.vercel.app/",
-      description:
-        "My portfolio website built with React, CSS, and HTML5. It showcases my skills, projects, and experience.",
-    },
+    // {
+    //   title: "Portfolio",
+    //   image: "https://i.imgur.com/8XZJQZM.png",
+    //   tags: ["React", "CSS", "HTML5"],
+    //   githubLink: "https://github.com/gsantosbruna/portfolio",
+    //   liveLink: "https://portfolio-gsantosbruna.vercel.app/",
+    //   description:
+    //     "My portfolio website built with React, CSS, and HTML5. It showcases my skills, projects, and experience.",
+    // },
   ],
   common: {
     education: "Education",
