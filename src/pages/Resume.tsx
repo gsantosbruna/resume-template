@@ -5,7 +5,8 @@ import Experience from "../components/Experience";
 import Skills from "../components/Skills";
 import Certifications from "../components/Certifications";
 import Awards from "../components/Awards";
-import Description from "../components/Description";
+// import Description from "../components/Description";
+import Projects from "../components/Projects";
 
 interface ResumeData {
   profile: {
@@ -42,6 +43,14 @@ interface ResumeData {
     award: string;
     description: string;
   }[];
+  projects: {
+    title: string;
+    image: string;
+    tags: string[];
+    githubLink: string;
+    liveLink: string;
+    description: string;
+  }[];
   common: {
     education: string;
     experience: string;
@@ -52,6 +61,8 @@ interface ResumeData {
     librariesFrameworks: string;
     toolsPlatforms: string;
     languages: string;
+    projects: string;
+    stacks: string;
   };
 }
 
@@ -67,6 +78,7 @@ const Resume: React.FC<ResumeProps> = ({ data }) => {
     skills,
     certifications,
     honorsAndAwards,
+    projects,
     common,
   } = data;
 
@@ -76,6 +88,7 @@ const Resume: React.FC<ResumeProps> = ({ data }) => {
       {/* <Description /> */}
       <Education data={education} education={common.education} />
       <Experience data={experience} experience={common.experience} />
+      <Projects data={projects} projects={common.projects} stacks={common.stacks} />
       <Skills {...skills} common={common} />
       <Certifications
         data={certifications}

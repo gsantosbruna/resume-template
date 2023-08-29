@@ -5,7 +5,7 @@ const resumeDataPTBR = {
     phone: "+33 06 56 67 55 35",
     location: "Saint-Ouen-sur-Seine, França",
     github: "https://github.com/gsantosbruna/",
-    portfolio: "https://portfolio-gsantosbruna.vercel.app/",
+    portfolio: "https://bruna-santos-portfolio.webflow.io/",
     linkedin: "https://www.linkedin.com/in/brunarobertasantos/",
     blog: "https://medium.com/@brunasantos_38597",
     aboutMe:
@@ -115,10 +115,25 @@ const resumeDataPTBR = {
   ],
   projects: [
     {
+      title: "Pronunciation Checker", // Projeto adicionado
+      image: "https://i.imgur.com/9Q9W9X3.png",
+      tags: [
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Node.js",
+        "Google Cloud Speech",
+      ],
+      githubLink: "https://github.com/gsantosbruna/pronunciation-check",
+      liveLink: "https://pronunciation-check.vercel.app/",
+      description:
+        "Feedback em tempo real sobre pronúncia em idiomas, alimentado pelo Google Cloud Speech, para melhorar as habilidades de fala em muitos idiomas.",
+    },
+    {
       title: "Portfólio",
       image: "https://i.imgur.com/8XZJQZM.png",
       tags: ["React", "CSS", "HTML5"],
-      githubLink: "https://github.com/",
+      githubLink: "https://github.com/gsantosbruna/portfolio",
       liveLink: "https://portfolio-gsantosbruna.vercel.app/",
       description:
         "Meu site de portfólio construído com React, CSS e HTML5. Ele apresenta minhas habilidades, projetos e experiência.",
@@ -134,6 +149,8 @@ const resumeDataPTBR = {
     librariesFrameworks: "Bibliotecas/Frameworks",
     toolsPlatforms: "Ferramentas/Plataformas",
     languages: "Idiomas",
+    projects: "Projetos",
+    stacks: "Tecnologias utilizadas",
   },
 };
 
