@@ -51,12 +51,12 @@ const resumeDataEN = {
       description: [
         "Responsible for guaranteeing product quality since its conception inside a SCRUM project.",
         "Created and executed test plans for functional and non-functional manual tests.",
-        "Created UI automated E2E tests using Swift language and XCUITest framework on iOS devices.",
+        "Created UI automated E2E tests using Swift language and XCUITest framework on Apple operating systems (iOS and macOS).",
       ],
     },
     {
       title: "Software Test Engineer",
-      company: "Motorola",
+      company: "Motorola (Lenovo)",
       location: "Recife, Brazil",
       date: "Jul 2020 - Jul 2021",
       description: [

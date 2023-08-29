@@ -51,12 +51,12 @@ const resumeDataFR = {
       description: [
         "Responsable de garantir la qualité du produit depuis sa conception dans le cadre d'un projet SCRUM.",
         "Création et exécution de plans de test pour des tests manuels fonctionnels et non fonctionnels.",
-        "Création de tests UI automatisés E2E en utilisant le langage Swift et le framework XCUITest sur des appareils iOS.",
+        "Création de tests UI automatisés E2E en utilisant le langage Swift et le framework XCUITest sur des appareils Apple (iOS et macOS).",
       ],
     },
     {
       title: "Ingénieure de test logiciel",
-      company: "Motorola",
+      company: "Motorola (Lenovo)",
       location: "Recife, Brésil",
       date: "Juillet 2020 - Juillet 2021",
       description: [
