@@ -86,9 +86,13 @@ const Resume: React.FC<ResumeProps> = ({ data }) => {
     <div className="resume">
       <Profile {...profile} />
       {/* <Description /> */}
-      <Education data={education} education={common.education} />
       <Experience data={experience} experience={common.experience} />
-      <Projects data={projects} projects={common.projects} stacks={common.stacks} />
+      <Projects
+        data={projects}
+        projects={common.projects}
+        stacks={common.stacks}
+      />
+      <Education data={education} education={common.education} />
       <Skills {...skills} common={common} />
       <Certifications
         data={certifications}
