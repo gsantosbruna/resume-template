@@ -1,10 +1,15 @@
 import React from "react";
 
-const Description = () => {
+type DescriptionProps = {
+  title: string;
+  description: string;
+};
+
+const Description = ({ title, description }: DescriptionProps) => {
   return (
     <div className="honors-and-awards">
-      <h2>About Me</h2>
-      <p className="description"></p>
+      <h2>{title}</h2>
+      <p className="description">{description}</p>
     </div>
   );
 };

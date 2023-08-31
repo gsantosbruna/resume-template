@@ -9,27 +9,48 @@ const resumeDataPTBR = {
     linkedin: "https://www.linkedin.com/in/brunarobertasantos/",
     blog: "https://medium.com/@brunasantos_38597",
     aboutMe:
-      "Sou estudante de engenharia mecânica e ex-engenheira de QA, atualmente aprimorando minhas habilidades em desenvolvimento front-end. Com minha formação diversificada em engenharia, desenvolvi uma paixão por usar tecnologia para resolver problemas complexos. Seja em Python, Swift ou em minhas recentes explorações em JavaScript, CSS e HTML, estou comprometida em criar soluções de alta qualidade centradas no usuário. Bem-vindo ao meu portfólio!",
+      "Como estudante de engenharia apaixonada por programação, descobri minha paixão dois anos após o início dos meus estudos em engenharia mecânica. Integrei a programação durante um estágio, evoluindo posteriormente para o papel de engenheira de QA por dois anos. Atualmente, estou cursando um duplo diploma em mecatrônica para adquirir uma compreensão fundamental da informática, e estou em busca de um estágio de fim de estudos como desenvolvedora web.",
   },
   education: [
     {
       school: "Institut Supérieur de Mécanique de Paris (ISAE-Supméca)",
       location: "Paris, França",
-      degree:
-        "Engenharia Mecânica - Mecatrônica e Sistemas Complexos (Duplo diploma)",
+      degree: "Engenharia - Mecatrônica e Sistemas Complexos (Duplo diploma)",
       date: "Agosto de 2022 - Julho de 2024",
+      acquiredKnowledge: [
+        "Estruturas de Dados",
+        "Algoritmos",
+        "Redes e Comunicação",
+        "Sistemas Digitais",
+        "Microprocessadores e Microcontroladores",
+        "Arquitetura de Computadores",
+      ],
     },
     {
       school: "Universidade Federal de Pernambuco (UFPE)",
       location: "Recife, Brasil",
       degree: "Bacharelado em Engenharia Mecânica",
       date: "Agosto de 2018 - Julho de 2024",
+      acquiredKnowledge: [
+        "Programação",
+        "Matemática",
+        "Interface Hardware-Software",
+        "Resolução de Problemas",
+        "Inovação Interdisciplinar",
+      ],
     },
     {
       school: "CESAR School",
       location: "Recife, Brasil",
       degree: "Automação de Testes, Extensão em TI",
       date: "Julho de 2021 - Agosto de 2022",
+      acquiredKnowledge: [
+        "Qualidade de Software",
+        "Desenvolvimento de Software",
+        "Metodologias Agile & Waterfall",
+        "UI/UX Design",
+        "DevOps",
+      ],
     },
   ],
   experience: [
@@ -151,6 +172,8 @@ const resumeDataPTBR = {
     languages: "Idiomas",
     projects: "Projetos",
     stacks: "Tecnologias utilizadas",
+    descriptionTitle: "Sobre mim",
+    acquiredKnowledge: "Conhecimento pertinentes",
   },
 };
 

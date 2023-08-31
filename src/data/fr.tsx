@@ -9,27 +9,49 @@ const resumeDataFR = {
     linkedin: "https://www.linkedin.com/in/brunarobertasantos/",
     blog: "https://medium.com/@brunasantos_38597",
     aboutMe:
-      "Je suis étudiante en génie mécanique et ancienne ingénieure QA, actuellement en train d'améliorer mes compétences en développement front-end. Grâce à ma formation d'ingénieur diversifiée, j'ai développé une passion pour l'utilisation de la technologie pour résoudre des problèmes complexes. Que ce soit en Python, en Swift ou dans mes récentes explorations en JavaScript, CSS et HTML, je suis engagée à créer des solutions de haute qualité centrées sur l'utilisateur. Bienvenue sur mon portfolio !",
+      "Étudiante en ingénierie passionnée de programmation, j'ai découvert ma passion deux ans après mes débuts en ingénierie mécanique. J'ai intégré la programmation lors d'un stage, évoluant ensuite en ingénieure QA pendant deux ans. Actuellement en double diplôme de mécatronique pour acquérir une compréhension fondamentale de l'informatique et je cherche un stage de fin d'études en tant que développeuse web.",
   },
   education: [
     {
       school: "Institut Supérieur de Mécanique de Paris (ISAE-Supméca)",
       location: "Paris, France",
       degree:
-        "Bac +5 Génie Mécanique - Parcours Mécatronique et Systèmes Complexes (Double diplôme)",
+        "Bac +5 École d'ingénieur - Parcours Mécatronique et Systèmes Complexes (Double diplôme)",
       date: "Août 2022 - Juillet 2024",
+      acquiredKnowledge: [
+        "Structures de Données",
+        "Algorithmes",
+        "Réseaux et Communication",
+        "Systèmes Digitaux",
+        "Microprocesseurs et Microcontrôleurs",
+        "Architecture des Ordinateurs",
+      ],
     },
     {
       school: "Universidade Federal de Pernambuco (UFPE)",
       location: "Recife, Brésil",
       degree: "B.Sc. en génie mécanique",
       date: "Août 2018 - Juillet 2024",
+      acquiredKnowledge: [
+        "Programmation",
+        "Mathématiques",
+        "Interface Matériel-Logiciel",
+        "Résolution de Problèmes",
+        "Innovation Interdisciplinaire",
+      ],
     },
     {
       school: "CESAR School",
       location: "Recife, Brésil",
       degree: "Automatisation des tests, Extension IT",
       date: "Juillet 2021 - Août 2022",
+      acquiredKnowledge: [
+        "Qualité Logicielle",
+        "Développement Logiciel",
+        "Méthodologies Agile & Waterfall",
+        "UI/UX Design",
+        "DevOps",
+      ],
     },
   ],
   experience: [
@@ -151,6 +173,8 @@ const resumeDataFR = {
     languages: "Langues",
     projects: "Projets",
     stacks: "Technologies utilisées ",
+    descriptionTitle: "À propos de moi",
+    acquiredKnowledge: "Compétences pertinentes",
   },
 };
 

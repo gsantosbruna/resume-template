@@ -9,27 +9,49 @@ const resumeDataEN = {
     linkedin: "https://www.linkedin.com/in/brunarobertasantos/",
     blog: "https://medium.com/@brunasantos_38597",
     aboutMe:
-      "I am a Mechanical Engineering student and former QA Engineer, currently enhancing my skills in front-end development. Through my diverse engineering background, I've developed a passion for utilizing technology to tackle complex problems. Whether it's Python, Swift, or my recent explorations into JavaScript, CSS, and HTML, I am committed to creating high-quality, user-centric solutions. Welcome to my portfolio!",
+      "As an engineering student passionate about programming, I discovered my passion two years after starting my studies in mechanical engineering. I integrated programming during an internship, subsequently evolving into a QA engineer role for two years. Currently pursuing a double degree in mechatronics to gain a fundamental understanding of informatics, I am seeking an end-of-studies internship as a web developer.",
   },
   education: [
     {
       school: "Institut Supérieur de Mécanique de Paris (ISAE-Supméca)",
       location: "Paris, France",
       degree:
-        "Bac +5 Mechanical Engineering - Mechatronics and Complex Systems (Double degree)",
+        "Bac +5 Engineering - Mechatronics and Complex Systems (Double degree)",
       date: "Aug 2022 - Jul 2024",
+      acquiredKnowledge: [
+        "Data Structures",
+        "Algorithms",
+        "Networking and Communication",
+        "Digital Systems",
+        "Microprocessors and Microcontrollers",
+        "Computer Architecture",
+      ],
     },
     {
       school: "Federal University of Pernambuco (UFPE)",
       location: "Recife, Brazil",
       degree: "B.Sc. in Mechanical Engineering",
       date: "Aug 2018 - Jul 2024",
+      acquiredKnowledge: [
+        "Programming",
+        "Mathematics",
+        "Hardware-Sotware Interface",
+        "Problem solving",
+        "Interdisciplinary Inovation",
+      ],
     },
     {
       school: "CESAR School",
       location: "Recife, Brazil",
       degree: "Test Automation, IT Extension",
       date: "Jul 2021 - Aug 2022",
+      acquiredKnowledge: [
+        "Software Quality",
+        "Software Development",
+        "Agile & Waterfall Methodologies",
+        "UI/UX Design",
+        "DevOps",
+      ],
     },
   ],
   experience: [
@@ -152,6 +174,8 @@ const resumeDataEN = {
     languages: "Languages",
     projects: "Projects",
     stacks: "Tech stacks used",
+    descriptionTitle: "About me",
+    acquiredKnowledge: "Pertinent expertise",
   },
 };
 
