@@ -55,25 +55,25 @@ const resumeDataEN = {
     },
   ],
   experience: [
-    {
-      title: "Project Researcher",
-      company: "ENERMAN",
-      location: "Paris, France",
-      date: "Sep 2022 - Jan 2023",
-      description: [
-        "Researched and developed a Bayesian Network model to create risk assessment analysis of an energy prediction tool (ENERMAN).",
-        "Used Python, especially pgmpy and matplotlib libraries, to build a bow-tie model for risk analysis.",
-      ],
-    },
+    // {
+    //   title: "Project Researcher",
+    //   company: "ENERMAN",
+    //   location: "Paris, France",
+    //   date: "Sep 2022 - Jan 2023",
+    //   description: [
+    //     "Developed a Bayesian Network model to perform risk assessment analysis for ENERMAN's energy prediction tool.",
+    //     "Utilized Python, specifically pgmpy and matplotlib libraries, to construct a bow-tie model for risk analysis.",
+    //   ],
+    // },
     {
       title: "QA Engineer",
       company: "CESAR",
       location: "Recife, Brazil",
       date: "Jul 2021 - Aug 2022",
       description: [
-        "Responsible for guaranteeing product quality since its conception inside a SCRUM project.",
-        "Created and executed test plans for functional and non-functional manual tests.",
-        "Created UI automated E2E tests using Swift language and XCUITest framework on Apple operating systems (iOS and macOS).",
+        "Ensured product quality throughout the entire SCRUM project lifecycle.",
+        "Devised and executed comprehensive test plans encompassing both functional and non-functional manual tests.",
+        "Automated UI end-to-end tests for Apple operating systems (iOS and macOS) using the Swift language and XCUITest framework.",
       ],
     },
     {
@@ -82,13 +82,14 @@ const resumeDataEN = {
       location: "Recife, Brazil",
       date: "Jul 2020 - Jul 2021",
       description: [
-        "Internship (July 2020 - Apr 2021) | Full-time Test Engineer (Apr 2021 - Jul 2021) ",
-        "Executed manual test cycles with regression and exploratory functional tests.",
-        "Execution and maintenance of automated test scripts for Android using Java and UIAutomator.",
-        "Investigation and tracking of issues, opening change requests (CRs) and retests with JIRA.",
+        "Completed an internship from July 2020 to April 2021, followed by a full-time role as a Test Engineer from April 2021 to July 2021.",
+        "Conducted manual test cycles, including regression and exploratory functional tests.",
+        "Developed and maintained automated test scripts for Android using Java and UIAutomator.",
+        "Investigated and tracked issues, initiated change requests (CRs), and performed retests using JIRA.",
       ],
     },
   ],
+
   skills: {
     programmingLanguages: [
       "TypeScript",
@@ -167,7 +168,7 @@ const resumeDataEN = {
     experience: "Experience",
     skills: "Skills",
     certifications: "Certifications",
-    honorsAndAwards: "Others",
+    honorsAndAwards: "Honors and Awards",
     programmingLanguages: "Programming Languages",
     librariesFrameworks: "Libraries/Frameworks",
     toolsPlatforms: "Tools/Platforms",

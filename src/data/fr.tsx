@@ -55,25 +55,25 @@ const resumeDataFR = {
     },
   ],
   experience: [
-    {
-      title: "Chercheuse de projet",
-      company: "ENERMAN",
-      location: "Paris, France",
-      date: "Septembre 2022 - Janvier 2023",
-      description: [
-        "Recherche et développement d'un modèle de réseau bayésien pour créer une analyse d'évaluation des risques d'un outil de prédiction d'énergie (ENERMAN).",
-        "Utilisation de Python, en particulier des bibliothèques pgmpy et matplotlib, pour construire un modèle bow-tie pour l'analyse des risques.",
-      ],
-    },
+    // {
+    //   "title": "Chercheuse de projet",
+    //   "company": "ENERMAN",
+    //   "location": "Paris, France",
+    //   "date": "Septembre 2022 - Janvier 2023",
+    //   "description": [
+    //     "Conduite de recherches et développement d'un modèle de réseau bayésien pour créer une analyse d'évaluation des risques d'un outil de prédiction d'énergie (ENERMAN).",
+    //     "Utilisation de Python, en particulier des bibliothèques pgmpy et matplotlib, pour construire un modèle bow-tie en vue de l'analyse des risques.",
+    //   ]
+    // },
     {
       title: "Ingénieure QA",
       company: "CESAR",
       location: "Recife, Brésil",
       date: "Juillet 2021 - Août 2022",
       description: [
-        "Responsable de garantir la qualité du produit depuis sa conception dans le cadre d'un projet SCRUM.",
-        "Création et exécution de plans de test pour des tests manuels fonctionnels et non fonctionnels.",
-        "Création de tests UI automatisés E2E en utilisant le langage Swift et le framework XCUITest sur des appareils Apple (iOS et macOS).",
+        "Assurance de la qualité du produit depuis sa conception dans le cadre d'un projet SCRUM.",
+        "Élaboration et exécution de plans de test, couvrant des tests manuels fonctionnels et non fonctionnels.",
+        "Automatisation de tests UI E2E en utilisant le langage Swift et le framework XCUITest sur des appareils Apple (iOS et macOS).",
       ],
     },
     {
@@ -82,10 +82,10 @@ const resumeDataFR = {
       location: "Recife, Brésil",
       date: "Juillet 2020 - Juillet 2021",
       description: [
-        "Stage (Juillet 2020 - Avril 2021) | Ingénieure de test à temps plein (Avril 2021 - Juillet 2021)",
-        "Exécution de cycles de test manuels avec des tests fonctionnels de régression et exploratoires.",
-        "Exécution et maintenance de scripts de test automatisés pour Android en utilisant Java et UIAutomator.",
-        "Investigation et suivi des problèmes, ouverture de demandes de retestes et changement (CRs) avec JIRA.",
+        "Stage (Juillet 2020 - Avril 2021) | Continuation en tant qu'Ingénieure de test à temps plein (Avril 2021 - Juillet 2021)",
+        "Exécution de cycles de test manuels, incluant des tests fonctionnels de régression et des tests exploratoires.",
+        "Automatisation et maintenance de scripts de test pour Android en utilisant Java et UIAutomator.",
+        "Investigation, suivi des problèmes, ouverture de demandes de retest et gestion des changements (CRs) avec JIRA.",
       ],
     },
   ],
@@ -166,7 +166,7 @@ const resumeDataFR = {
     experience: "Expérience",
     skills: "Compétences",
     certifications: "Certifications",
-    honorsAndAwards: "Autres",
+    honorsAndAwards: "Distinctions et Récompenses",
     programmingLanguages: "Langages de programmation",
     librariesFrameworks: "Bibliothèques/Frameworks",
     toolsPlatforms: "Outils/Plateformes",

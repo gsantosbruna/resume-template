@@ -9,7 +9,7 @@ const resumeDataPTBR = {
     linkedin: "https://www.linkedin.com/in/brunarobertasantos/",
     blog: "https://medium.com/@brunasantos_38597",
     aboutMe:
-      "Como estudante de engenharia apaixonada por programação, descobri minha paixão dois anos após o início dos meus estudos em engenharia mecânica. Integrei a programação durante um estágio, evoluindo posteriormente para o papel de engenheira de QA por dois anos. Atualmente, estou cursando um duplo diploma em mecatrônica para adquirir uma compreensão fundamental da informática, e estou em busca de um estágio de fim de estudos como desenvolvedora web.",
+      "Como estudante de engenharia apaixonada por programação, descobri minha paixão dois anos após o início dos meus estudos em engenharia mecânica. Integrei a programação durante um estágio, evoluindo posteriormente para o papel de engenheira de QA por dois anos. Atualmente, estou cursando um duplo diploma em mecatrônica para adquirir uma compreensão fundamental da informática, e estou em busca de um estágio de fim de estudos como desenvolvedora.",
   },
   education: [
     {
@@ -60,8 +60,8 @@ const resumeDataPTBR = {
       location: "Paris, França",
       date: "Setembro de 2022 - Janeiro de 2023",
       description: [
-        "Pesquisa e desenvolvimento de um modelo de rede bayesiana para criar uma análise de avaliação de riscos de uma ferramenta de previsão de energia (ENERMAN).",
-        "Uso de Python, em particular das bibliotecas pgmpy e matplotlib, para construir um modelo de bow-tie para análise de riscos.",
+        "Conduzi pesquisa e desenvolvimento de um modelo de rede bayesiana para criar uma análise de avaliação de riscos de uma ferramenta de previsão de energia (ENERMAN).",
+        "Utilizei Python, em particular das bibliotecas pgmpy e matplotlib, para construir um modelo de bow-tie para análise de riscos.",
       ],
     },
     {
@@ -70,9 +70,9 @@ const resumeDataPTBR = {
       location: "Recife, Brasil",
       date: "Julho de 2021 - Agosto de 2022",
       description: [
-        "Responsável por garantir a qualidade do produto desde sua concepção em um projeto SCRUM.",
-        "Criação e execução de planos de teste para testes manuais funcionais e não funcionais.",
-        "Criação de testes de UI E2E automatizados usando a linguagem Swift e o framework XCUITest em dispositivos Apple (iOS e macOS).",
+        "Assegurei a qualidade do produto desde sua concepção em um projeto SCRUM.",
+        "Desenvolvi e executei planos de teste abrangentes para avaliação de funcionalidades e desempenho.",
+        "Automatizei testes de UI E2E em dispositivos Apple (iOS e macOS) usando a linguagem Swift e o framework XCUITest.",
       ],
     },
     {
@@ -81,13 +81,14 @@ const resumeDataPTBR = {
       location: "Recife, Brasil",
       date: "Julho de 2020 - Julho de 2021",
       description: [
-        "Estágio (Julho de 2020 - Abril de 2021) | CLT (Abril de 2021 - Julho de 2021)",
-        "Execução de ciclos de teste manuais com testes funcionais de regressão e exploratórios.",
-        "Execução e manutenção de scripts de teste automatizados para Android usando Java e UIAutomator.",
-        "Investigação e acompanhamento de problemas, abertura de solicitações de retestes e mudanças (CRs) com JIRA.",
+        "Executei ciclos de teste manuais com foco em testes funcionais de regressão e exploratórios.",
+        "Automatizei scripts de teste para Android utilizando Java e UIAutomator.",
+        "Investiguei, gerenciei e reportei problemas utilizando JIRA.",
+        "Realizei um estágio de Julho de 2020 a Abril de 2021 antes de ser contratada como CLT em Abril de 2021.",
       ],
     },
   ],
+
   skills: {
     programmingLanguages: [
       "TypeScript",
@@ -165,7 +166,7 @@ const resumeDataPTBR = {
     experience: "Experiência",
     skills: "Habilidades",
     certifications: "Certificações",
-    honorsAndAwards: "Outros",
+    honorsAndAwards: "Honras e prêmios",
     programmingLanguages: "Linguagens de programação",
     librariesFrameworks: "Bibliotecas/Frameworks",
     toolsPlatforms: "Ferramentas/Plataformas",

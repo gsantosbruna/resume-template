@@ -40,7 +40,7 @@ const Education: React.FC<EducationProps> = ({ data, education, title }) => {
                 gap: "0.5rem",
               }}
             >
-              <h3 style={{ margin: 0, fontSize: 11, opacity: 0.7 }}>{title}</h3>
+              <h3 style={{ margin: 0, fontSize: 12, opacity: 0.7 }}>{title}</h3>
               <div
                 style={{
                   display: "flex",
@@ -53,7 +53,7 @@ const Education: React.FC<EducationProps> = ({ data, education, title }) => {
               >
                 {item.acquiredKnowledge.map((tag) => {
                   return (
-                    <p style={{ fontSize: 11, opacity: 0.7 }} key={tag}>
+                    <p style={{ fontSize: 12, opacity: 0.7 }} key={tag}>
                       {tag}
                     </p>
                   );
