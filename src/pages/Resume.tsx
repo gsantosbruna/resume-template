@@ -100,12 +100,12 @@ const Resume: React.FC<ResumeProps> = ({ data }) => {
         projects={common.projects}
         stacks={common.stacks}
       />
+      <Skills {...skills} common={common} />
       <Education
         data={education}
         education={common.education}
         title={common.acquiredKnowledge}
       />
-      <Skills {...skills} common={common} />
       <Certifications
         data={certifications}
         certificationsText={common.certifications}

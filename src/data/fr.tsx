@@ -9,86 +9,73 @@ const resumeDataFR = {
     linkedin: "https://www.linkedin.com/in/brunarobertasantos/",
     blog: "https://medium.com/@brunasantos_38597",
     aboutMe:
-      "Étudiante en ingénierie passionnée de programmation, j'ai découvert ma passion deux ans après mes débuts en ingénierie mécanique. J'ai intégré la programmation lors d'un stage, évoluant ensuite en ingénieure QA pendant deux ans. Actuellement en double diplôme de mécatronique pour acquérir une compréhension fondamentale de l'informatique et je cherche un stage de fin d'études en tant que développeuse web.",
+      "Pendant mes études en génie mécanique, j'ai découvert une passion pour la programmation. Cette passion a grandi en travaillant en tant que software tester et QA engineer. Pour combler mon expérience en génie avec mon intérêt pour l'informatique, j'ai poursuivi un double diplôme en mécatronique et en systèmes complexes. Je recherche maintenant un stage de fin d'études en tant que software engineer pour allier ma créativité à mon souci constant de la qualité en raison de mon expérience en tant que QA.",
   },
   education: [
     {
       school: "Institut Supérieur de Mécanique de Paris (ISAE-Supméca)",
       location: "Paris, France",
-      degree:
-        "Bac +5 École d'ingénieur - Parcours Mécatronique et Systèmes Complexes (Double diplôme)",
+      degree: "Diplôme d'ingénieur Bac+5- Mécatronique et Systèmes Complexes",
       date: "Août 2022 - Juillet 2024",
       acquiredKnowledge: [
-        "Structures de Données",
         "Algorithmes",
-        "Réseaux et Communication",
-        "Systèmes Digitaux",
-        "Microprocesseurs et Microcontrôleurs",
-        "Architecture des Ordinateurs",
+        "Deep Learning",
+        "Réseaux et Communications",
+        "Systèmes Numériques",
+        "Architecture Informatique",
       ],
     },
     {
       school: "Universidade Federal de Pernambuco (UFPE)",
       location: "Recife, Brésil",
-      degree: "B.Sc. en génie mécanique",
+      degree: "Génie Mécanique",
       date: "Août 2018 - Juillet 2024",
       acquiredKnowledge: [
         "Programmation",
         "Mathématiques",
-        "Interface Matériel-Logiciel",
+        "Interface Hardware-Software",
         "Résolution de Problèmes",
         "Innovation Interdisciplinaire",
       ],
     },
-    {
-      school: "CESAR School",
-      location: "Recife, Brésil",
-      degree: "Automatisation des tests, Extension IT",
-      date: "Juillet 2021 - Août 2022",
-      acquiredKnowledge: [
-        "Qualité Logicielle",
-        "Développement Logiciel",
-        "Méthodologies Agile & Waterfall",
-        "UI/UX Design",
-        "DevOps",
-      ],
-    },
   ],
   experience: [
-    // {
-    //   "title": "Chercheuse de projet",
-    //   "company": "ENERMAN",
-    //   "location": "Paris, France",
-    //   "date": "Septembre 2022 - Janvier 2023",
-    //   "description": [
-    //     "Conduite de recherches et développement d'un modèle de réseau bayésien pour créer une analyse d'évaluation des risques d'un outil de prédiction d'énergie (ENERMAN).",
-    //     "Utilisation de Python, en particulier des bibliothèques pgmpy et matplotlib, pour construire un modèle bow-tie en vue de l'analyse des risques.",
-    //   ]
-    // },
+    {
+      title: "Chercheuse de Projet - Stage Académique",
+      company: "ENERMAN",
+      location: "Paris, France",
+      date: "Septembre 2022 - Janvier 2023",
+      description: [
+        "Travaillé chez ENERMAN, un projet de recherche de l'Union Européenne pour développer un framework  de gestion de l'énergie.",
+        "Développé un modèle de réseau bayésien pour effectuer une analyse de gestion des risques pour le projet ENERMAN.",
+        "Utilisé Python, en particulier les bibliothèques pgmpy et matplotlib, pour construire un modèle bow-tie pour l'analyse des risques.",
+      ],
+    },
     {
       title: "Ingénieure QA",
       company: "CESAR",
       location: "Recife, Brésil",
       date: "Juillet 2021 - Août 2022",
       description: [
-        "Assurance de la qualité du produit depuis sa conception dans le cadre d'un projet SCRUM.",
-        "Élaboration et exécution de plans de test, couvrant des tests manuels fonctionnels et non fonctionnels.",
-        "Automatisation de tests UI E2E en utilisant le langage Swift et le framework XCUITest sur des appareils Apple (iOS et macOS).",
+        "Assuré la qualité du produit tout au long du cycle de vie du projet SCRUM.",
+        "Conçu et exécuté des plans de test complets englobant à la fois des tests manuels fonctionnels et non fonctionnels.",
+        "Automatisé les tests d'UI E2E pour les systèmes Apple (iOS et macOS) en utilisant le langage Swift et la bibliothèque XCTest.",
       ],
     },
     {
-      title: "Ingénieure de test logiciel",
+      title: "Ingénieure Test Logiciel",
       company: "Motorola (Lenovo)",
       location: "Recife, Brésil",
       date: "Juillet 2020 - Juillet 2021",
       description: [
-        "Stage (Juillet 2020 - Avril 2021) | Continuation en tant qu'Ingénieure de test à temps plein (Avril 2021 - Juillet 2021)",
-        "Exécution de cycles de test manuels, incluant des tests fonctionnels de régression et des tests exploratoires.",
-        "Automatisation et maintenance de scripts de test pour Android en utilisant Java et UIAutomator.",
-        "Investigation, suivi des problèmes, ouverture de demandes de retest et gestion des changements (CRs) avec JIRA.",
+        "Stage effectué de juillet 2020 à avril 2021, suivi d'un poste à plein temps en tant qu'ingénieure de test d'avril 2021 à juillet 2021.",
+        "Conduit des cycles de tests manuels, y compris des tests fonctionnels de régression et exploratoires.",
+        "Développé et maintenu des scripts de test automatisés pour Android en utilisant Java via le framework UIAutomator.",
+        "A enquêté sur les problèmes, initié des demandes de changement (CR) et effectué des retests suivis via JIRA.",
       ],
     },
   ],
+
   skills: {
     programmingLanguages: [
       "TypeScript",
@@ -102,42 +89,43 @@ const resumeDataFR = {
     ],
     librariesFrameworks: [
       "React",
-      "CSS",
-      "HTML5",
-      "XCUITest",
-      "Selenium",
       "Node.js",
       "Next.js",
+      "HTML5",
+      "CSS",
+      "XCTest",
+      "Selenium",
     ],
-    toolsPlatforms: ["Arduino", "JIRA", "Git", "GitHub", "Jenkins", "API"],
+    toolsPlatforms: ["Git", "Jira", "Jenkins", "Arduino"],
     softSkills: [
-      "Résolution de problèmes",
-      "Sensibilité culturelle",
+      "Résolution de Problèmes",
+      "Sensibilité Culturelle",
       "Adaptabilité",
-      "Travail d'équipe",
+      "Travail d'Équipe",
       "Collaboration",
       "Communication",
     ],
     languages: [
       "Anglais (Courant)",
       "Français (Avancé)",
-      "Portugais (Langue maternelle)",
+      "Portugais (Natif)",
       "Espagnol (Intermédiaire)",
     ],
   },
   certifications: [
     "CTFL Foundation Level - ISTQB (International Software Testing Qualifications Board)",
-    "TOEIC (990 sur 990) - TOEIC® Educational Testing Service (ETS)",
+    "TOEIC (990 sur 990) - TOEIC Educational Testing Service (ETS)",
+    "CESAR School - Automatisation des Tests, Extension en Informatique. 2021-2022. Apprentissage sur software quality, software development, les méthodologies agile et en cascade, UI/UX et DevOps.",
   ],
   honorsAndAwards: [
     {
-      award: `Boursière BRAFITEC (Septembre 2022 - Présent)`,
-      description: `Double diplôme financé par la Coordination brésilienne pour l'amélioration du personnel de l'enseignement supérieur (CAPES), qui offre des bourses à environ 200 étudiants qui se sont distingués dans les programmes d'ingénierie brésiliens.`,
+      award: `Boursière du Programme BRAFITEC (Septembre 2022 - Présent)`,
+      description: `Double diplôme financé par la Coordination Brésilienne pour l'Amélioration du Personnel de l'Enseignement Supérieur (CAPES), qui offre des bourses à étudiantes ayant excellé dans les programmes d'ingénierie brésiliens.`,
     },
   ],
   projects: [
     {
-      title: "Pronunciation Checker", // Added the Pronunciation Checker project
+      title: "Pronunciation Checker",
       image: "https://i.imgur.com/9Q9W9X3.png",
       tags: [
         "TypeScript",
@@ -149,8 +137,9 @@ const resumeDataFR = {
       githubLink: "https://github.com/gsantosbruna/pronunciation-check",
       liveLink: "https://pronunciation-check.vercel.app/",
       description:
-        "Feedback en temps réel sur la prononciation en langues étrangères, alimenté par Google Cloud Speech, pour améliorer les compétences en expression orale dans de nombreuses langues.",
+        "Le Pronunciation Checker est une application web conçue pour aider à améliorer la prononciation. Elle utilise Google Cloud Speech pour transcrire les mots prononcés en texte, puis les compare au texte attendu, fournissant des feedbacks.",
     },
+
     // {
     //   title: "Portfolio",
     //   image: "https://i.imgur.com/8XZJQZM.png",
@@ -158,23 +147,23 @@ const resumeDataFR = {
     //   githubLink: "https://github.com/gsantosbruna/portfolio",
     //   liveLink: "https://portfolio-gsantosbruna.vercel.app/",
     //   description:
-    //     "Mon site web de portfolio construit avec React, CSS et HTML5. Il présente mes compétences, mes projets et mon expérience.",
+    //     "Mon site portfolio construit avec React, CSS et HTML5. Il présente mes compétences, projets et expériences.",
     // },
   ],
   common: {
-    education: "Formation",
+    education: "Éducation",
     experience: "Expérience",
     skills: "Compétences",
     certifications: "Certifications",
-    honorsAndAwards: "Distinctions et Récompenses",
-    programmingLanguages: "Langages de programmation",
+    honorsAndAwards: "Honneurs et Récompenses",
+    programmingLanguages: "Langages de Programmation",
     librariesFrameworks: "Bibliothèques/Frameworks",
     toolsPlatforms: "Outils/Plateformes",
     languages: "Langues",
-    projects: "Projets",
-    stacks: "Technologies utilisées ",
-    descriptionTitle: "À propos de moi",
-    acquiredKnowledge: "Compétences pertinentes",
+    projects: "Projets Open Source",
+    stacks: "Technologies Utilisées",
+    descriptionTitle: "À Propos de Moi",
+    acquiredKnowledge: "Expertise Pertinente",
   },
 };
 
